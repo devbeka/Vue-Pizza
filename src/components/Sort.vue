@@ -43,9 +43,9 @@ export default {
 			{id: 0, name: "популярности", sortBy: 'rating'},
 			{id: 1, name: "цене", sortBy: 'price'},
 			{id: 2, name: "алфавиту", sortBy: 'name'},
-			
+
 		]);
-		
+
 		const activeSortItem = computed(() => store.state.sortBy)
 
 		const handleActiveItem = (index) => {
@@ -61,6 +61,7 @@ export default {
 <style lang="scss">
 @import "@/assets/scss/app.scss";
 .sort {
+	cursor: pointer;
 	position: relative;
 	&__label {
 		display: flex;

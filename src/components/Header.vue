@@ -57,7 +57,6 @@
 import { computed } from '@vue/reactivity'
 import { useStore } from 'vuex'
 export default {
-  //  props: ['showSidebar'],
   setup() {
     const store = useStore()
 

@@ -1,9 +1,9 @@
 <template>
   <ul>
-	  <li 
+	  <li
 	  @click = handleActiveItem(index)
-	  :class="{ active: activeItem === index }" 
-	  v-for="(item, index) in typeItems" 
+	  :class="{ active: activeItem === index }"
+	  v-for="(item, index) in typeItems"
 	  :key="item">{{ item }}</li>
   </ul>
 </template>
