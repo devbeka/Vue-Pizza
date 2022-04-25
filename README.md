@@ -1,4 +1,4 @@
-# cart-vuex
+# Pizza-cart
 
 ## Project setup
 ```
@@ -10,10 +10,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Server start
 ```
-npm run build
+npx json-server --watch ./public/db.json
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
